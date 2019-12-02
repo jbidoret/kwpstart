@@ -1,5 +1,5 @@
-    
 
+    </div>
     <!-- scripts -->
     <?php echo js('assets/builds/bundle.js') ?>
 
