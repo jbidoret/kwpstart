@@ -12,9 +12,6 @@
 
     <?php snippet("header-metas") ?>
 
-    <?php if (isset($map) && $map ==true): ?>
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
-    <?php endif; ?>
     <link rel="alternate" type="application/rss+xml" title="<?= t('feed') ?>" href="<?= site()->url() ?>/feed"/>
     <?php echo liveCSS('assets/builds/bundle.css') ?>
 
@@ -30,11 +27,3 @@
         <header class="header">
           <a class="logo" href="<?= $site->url() ?>"><span><?= $site->title() ?></span></a>
         </header>
-
-        <aside class="aside">
-            <div class="tada">&nbsp;</div>
-            <div class="ornament"></div>
-            <?= snippet("cart-button")?>
-        </aside>
-
-        <?= snippet("nav")?>
