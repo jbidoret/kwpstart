@@ -1,0 +1,55 @@
+
+
+html, body { height: 100%; }
+
+
+body {
+    font-size: $basesize;
+    font-family: sans-serif;
+    margin: 0;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+sup {
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: bottom;
+}
+
+a {
+    color: inherit;
+    color: currentColor;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+
+}
+
+h1 {
+
+}
+
+img {
+    max-width: 100%
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}

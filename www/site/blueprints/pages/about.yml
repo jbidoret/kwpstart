@@ -1,0 +1,38 @@
+title: About us
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+  changeStatus: false
+
+columns:
+  - width: 1/2
+    fields:
+      address:
+        label: Addresse
+        type: textarea
+
+  - width: 1/2
+    fields:
+      email:
+        label: E-mail
+        type: email
+      phone:
+        label: Téléphone
+        type: tel
+      social:
+        label: Sur le web
+        type: structure
+        fields:
+          platform:
+            label: Platform
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2
